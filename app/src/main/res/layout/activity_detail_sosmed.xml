@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailSosmedActivity">
+
+        <ImageView
+            android:id="@+id/img_fb"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/facebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp" />
+
+        <TextView
+            android:id="@+id/txt_intent_nama_sosmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_fb"
+            android:layout_centerHorizontal="true"
+            android:text="NAMA PRESIDEN"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_intent_masa_pembuatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txt_intent_nama_sosmed"
+            android:text="MASA PEMBUATAN : 2020 - 2024"/>
+
+        <WebView
+            android:id="@+id/txt_judul_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESKRIPSI"
+            android:layout_below="@+id/txt_intent_masa_pembuatan"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

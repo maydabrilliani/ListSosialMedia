@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">List SOSIAL MEDIA</string>
+
+
+    <string-array name="data_name">
+        <item>FACEBOOK</item>
+        <item>TWITTER</item>
+        <item>WHATSAPP</item>
+        <item>INSTAGRAM</item>
+        <item>YOUTUBE</item>
+    </string-array>
+
+    <string-array name="data_masa_pembuatan">
+        <item>Februari 2004, didirikan oleh Mark Zuckerberg</item>
+        <item>Maret 2006, didirikan oleh Jack Dorsey</item>
+        <item>January 2009, didirikan oleh  Jan Koum Brian Acton</item>
+        <item>Oktober 2010, didirikan oleh Kevin Systrom, Mike Krieger</item>
+        <item>Februari 2005, didirikan oleh  tiga mantan karyawan PayPal</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>Facebook adalah sebuah situs jejaring sosial yang memungkinkan pengguna dapat saling berinteraksi dengan pengguna lainnya di seluruh dunia. Frasa “Buku Muka” merupakan prinsip dasar yang membedakan facebook dengan jejaring sosialnya, yaitu menampilkan seluruh informasi dari pengguna tersebut</item>
+        <item>Twitter adalah layanan bagi teman, keluarga, dan teman sekerja untuk berkomunikasi dan tetap terhubung melalui pertukaran pesan yang cepat dan sering. Pengguna memposting Tweet, yang dapat berisi foto, video, tautan, dan teks. Pesan ini diposting ke profil Anda, terkirim ke pengikut, dan dapat dicari di pencarian Twitter.</item>
+        <item>WhatsApp adalah aplikasi pesan instan untuk smartphone, jika dilihat dari fungsinya WhatsApp hampir sama dengan aplikasi SMS yang biasa Anda pergunakan di ponsel lama. Tetapi WhatsApp tidak menggunakan pulsa, melainkan data internet. Jadi, di aplikasi ini sobat tak perlu khawatir soal panjang pendeknya karakter. Tidak ada batasan, selama data internet sobat memadai.</item>
+        <item>Instagram adalah aplikasi ini dapat memungkinkan user untuk menggunggah foto ataupun video ke dalam feed dan foto tersebut dapat diedit dengan menggunakan filter serta dapat diatur dengan tag dan informasi lokasi.</item>
+        <item>Youtube merupakan sebuah website yang menfasilitasi penggunanya untuk berbagi video yang mereka miliki, atau sebatas menikmati berbagai video klip yang diunggah oleh berbagai pihak. </item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/facebook</item>
+        <item>@drawable/twitter</item>
+        <item>@drawable/whatsapp</item>
+        <item>@drawable/instagram</item>
+        <item>@drawable/youtube</item>
+    </string-array>
+
+    <string name="title_activity_detail_sosmed">DetailSosmedActivity</string>
+
+
+</resources>
